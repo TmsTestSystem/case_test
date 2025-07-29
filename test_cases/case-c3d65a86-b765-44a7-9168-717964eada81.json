@@ -1,17 +1,17 @@
 {
   "id": "c3d65a86-b765-44a7-9168-717964eada81",
-  "project_id": "37055717-a249-4f77-932c-ec1950bc40c6",
+  "project_id": "26b9f179-c1ca-446e-bf62-0f5ac61ad31d",
   "test_plan_id": null,
   "title": "trs",
-  "description": "ew",
-  "preconditions": "ew",
-  "steps": "ew",
+  "description": "ТестируемТестируемТестируемТестируем",
+  "preconditions": "ewТестируемТестируемТестируемТестируем",
+  "steps": "ewТестируемТестируемТестируемТестируем",
   "expected_result": "ewe",
-  "priority": "medium",
-  "status": "draft",
+  "priority": "critical",
+  "status": "ready",
   "created_by": null,
   "assigned_to": null,
   "section_id": null,
   "created_at": "2025-07-29T15:51:27.181Z",
-  "updated_at": "2025-07-29T15:51:27.181Z"
+  "updated_at": "2025-07-29T16:04:29.758Z"
 }
