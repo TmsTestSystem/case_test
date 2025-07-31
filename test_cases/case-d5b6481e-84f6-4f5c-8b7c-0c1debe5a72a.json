@@ -1,7 +1,7 @@
 {
   "id": "d5b6481e-84f6-4f5c-8b7c-0c1debe5a72a",
   "project_id": "37055717-a249-4f77-932c-ec1950bc40c6",
-  "test_plan_id": "2eb0fe9f-567c-4346-8799-7411a37b0c07",
+  "test_plan_id": null,
   "title": "Ввод несуществующего email при восстановлении пароля",
   "description": "",
   "preconditions": "Пользователь находится на странице восстановления пароля.",
