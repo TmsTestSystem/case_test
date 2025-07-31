@@ -1,7 +1,7 @@
 {
   "id": "64ef9bc7-10fc-434e-ae9b-758f6e028fbb",
   "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
-  "test_plan_id": null,
+  "test_plan_id": "a1f1c06f-a1f3-422f-8769-58f987e272ec",
   "title": "Успешное изменение пароля по ссылке из письма",
   "description": "",
   "preconditions": "Пользователь перешел по ссылке из письма для восстановления пароля.",
@@ -13,5 +13,5 @@
   "assigned_to": null,
   "section_id": "1d1d263e-745f-43f2-9494-224481b4e56f",
   "created_at": "2025-07-31T15:50:57.632Z",
-  "updated_at": "2025-07-31T15:52:31.954Z"
+  "updated_at": "2025-07-31T16:17:57.198Z"
 }
