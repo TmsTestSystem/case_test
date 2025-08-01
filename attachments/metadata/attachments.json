@@ -1,0 +1,17 @@
+[
+  {
+    "id": "d33e9a44-8d70-4367-88b0-2cbecef3c60b",
+    "test_case_id": "fdcafda9-bdac-4a55-8aed-14c136c426aa",
+    "filename": "b3c5b172-cc34-4abd-8fc4-6509cbc31338-autofile_1_1753129258_17534129258.ds.json",
+    "original_filename": "autofile_1_1753129258_17534129258.ds.json",
+    "file_size": "167",
+    "mime_type": "application/json",
+    "description": null,
+    "uploaded_by": "550e8400-e29b-41d4-a716-446655440000",
+    "created_at": "2025-08-01T22:44:31.889Z",
+    "updated_at": "2025-08-01T22:44:31.889Z",
+    "is_deleted": false,
+    "deleted_at": null,
+    "project_id": "6676ef3c-51e0-4bc6-b6bc-9da8b87986ad"
+  }
+]
