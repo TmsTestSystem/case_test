@@ -1,0 +1,19 @@
+{
+  "id": "ec27da8a-8c5d-4884-b154-be7006bc83e0",
+  "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
+  "test_plan_id": null,
+  "title": "Отсутствие ; в однострочном вводе",
+  "description": "Проверка, что система возвращает ошибку при отсутствии ; или переноса строки.",
+  "preconditions": "Создан процесс: Старт → Присваивание → Конец.\r\nВ процессе объявлена переменная a (тип integer).\r\nВходные данные: {\"a\": 1}.",
+  "steps": "1. Открыть настройки компонента \"Присваивание\".\r\n2. Добавить переменную.\r\n3. В поле переменной ввести $var.a.\r\n4. В поле значения указать значение $node.Input.data.a $node.Input.data.a + 1\r\n5. Запустить процесс.",
+  "expected_result": "Диаграмма завершена с ошибкой\r\nОшибка в компоненте Assignment: \"Ошибка в позиции 20. Исправьте выражение «$node.Input.data.a + 1»\"",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "section_id": "95e96c84-840b-4f94-8f28-10db98bff94d",
+  "is_deleted": false,
+  "deleted_at": null,
+  "created_at": "2025-08-01T15:15:03.283Z",
+  "updated_at": "2025-08-01T15:15:03.283Z"
+}

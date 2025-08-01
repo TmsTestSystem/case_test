@@ -1,6 +1,6 @@
 {
   "id": "fdcafda9-bdac-4a55-8aed-14c136c426aa",
-  "project_id": "eb56ee08-9b40-4fd7-8ba7-406e156b4884",
+  "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
   "test_plan_id": "fcb2a77f-c984-459e-93f7-b5bf96c3dc00",
   "title": "Успешный запрос на восстановление пароля",
   "description": "",
@@ -12,8 +12,8 @@
   "created_by": null,
   "assigned_to": null,
   "section_id": "1d1d263e-745f-43f2-9494-224481b4e56f",
-  "created_at": "2025-07-31T15:48:29.813Z",
-  "updated_at": "2025-07-31T16:20:06.053Z",
   "is_deleted": false,
-  "deleted_at": null
+  "deleted_at": null,
+  "created_at": "2025-07-31T15:48:29.813Z",
+  "updated_at": "2025-07-31T16:20:06.053Z"
 }
