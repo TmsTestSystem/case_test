@@ -1,10 +1,12 @@
 {
   "id": "fcb2a77f-c984-459e-93f7-b5bf96c3dc00",
-  "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
+  "project_id": "eb56ee08-9b40-4fd7-8ba7-406e156b4884",
   "name": "TEST1",
   "description": "TEST1`",
   "status": "draft",
   "created_by": "00000000-0000-0000-0000-000000000001",
   "created_at": "2025-07-31T16:19:58.937Z",
-  "updated_at": "2025-07-31T16:19:58.937Z"
+  "updated_at": "2025-07-31T16:19:58.937Z",
+  "is_deleted": false,
+  "deleted_at": null
 }
