@@ -1,10 +1,10 @@
 {
   "id": "95e96c84-840b-4f94-8f28-10db98bff94d",
-  "project_id": "1757f3e9-c407-42e4-abec-3af673f1628b",
+  "project_id": "8ea02eeb-a726-480f-9eaa-6350eabe834f",
   "parent_id": "45038ee2-9927-40be-b299-3d4d5e00c6d0",
   "name": "Разделения операторов через ;",
   "order_index": 0,
-  "created_by": null,
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-01T15:14:49.396Z",
   "updated_at": "2025-08-01T16:26:57.119Z",
   "is_deleted": false,

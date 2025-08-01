@@ -1,10 +1,10 @@
 {
   "id": "1d1d263e-745f-43f2-9494-224481b4e56f",
-  "project_id": "1757f3e9-c407-42e4-abec-3af673f1628b",
+  "project_id": "8ea02eeb-a726-480f-9eaa-6350eabe834f",
   "parent_id": "e793b543-44d6-419e-8ed1-ffac62b3e507",
   "name": "Восстановление пароля",
   "order_index": 0,
-  "created_by": null,
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-07-31T15:44:59.621Z",
   "updated_at": "2025-07-31T15:44:59.621Z",
   "is_deleted": false,
