@@ -1,6 +1,6 @@
 {
   "id": "d5b6481e-84f6-4f5c-8b7c-0c1debe5a72a",
-  "project_id": "6b4d994d-bb30-46a9-89df-e17622390d0f",
+  "project_id": "3aeb778e-dfdc-469c-ba76-6afe3401031f",
   "test_plan_id": "fcb2a77f-c984-459e-93f7-b5bf96c3dc00",
   "section_id": "1d1d263e-745f-43f2-9494-224481b4e56f",
   "title": "Ввод несуществующего email при восстановлении пароля",
