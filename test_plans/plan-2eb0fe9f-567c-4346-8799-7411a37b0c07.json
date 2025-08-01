@@ -1,12 +1,12 @@
 {
   "id": "2eb0fe9f-567c-4346-8799-7411a37b0c07",
-  "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
+  "project_id": "1757f3e9-c407-42e4-abec-3af673f1628b",
   "name": "qew",
   "description": "qwe",
   "status": "draft",
-  "created_by": "00000000-0000-0000-0000-000000000001",
-  "is_deleted": true,
-  "deleted_at": "2025-08-01T10:13:42.086Z",
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-07-31T19:26:40.440Z",
-  "updated_at": "2025-07-31T19:26:40.440Z"
+  "updated_at": "2025-07-31T19:26:40.440Z",
+  "is_deleted": true,
+  "deleted_at": "2025-08-01T10:13:42.086Z"
 }

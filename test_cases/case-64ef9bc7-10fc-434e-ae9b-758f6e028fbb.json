@@ -1,7 +1,8 @@
 {
   "id": "64ef9bc7-10fc-434e-ae9b-758f6e028fbb",
-  "project_id": "b5c5b2b7-1e52-4600-adcb-c5d2b39adf21",
+  "project_id": "1757f3e9-c407-42e4-abec-3af673f1628b",
   "test_plan_id": "fcb2a77f-c984-459e-93f7-b5bf96c3dc00",
+  "section_id": "1d1d263e-745f-43f2-9494-224481b4e56f",
   "title": "Успешное изменение пароля по ссылке из письма",
   "description": "",
   "preconditions": "Пользователь перешел по ссылке из письма для восстановления пароля.",
@@ -9,11 +10,10 @@
   "expected_result": "Пароль успешно изменен.\n\nПользователь перенаправлен на страницу авторизации.\n\nВозможен вход с новым паролем.",
   "priority": "medium",
   "status": "draft",
-  "created_by": null,
-  "assigned_to": null,
-  "section_id": "1d1d263e-745f-43f2-9494-224481b4e56f",
-  "is_deleted": false,
-  "deleted_at": null,
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
+  "assigned_to": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-07-31T15:50:57.632Z",
-  "updated_at": "2025-07-31T16:20:06.159Z"
+  "updated_at": "2025-07-31T16:20:06.159Z",
+  "is_deleted": false,
+  "deleted_at": null
 }
