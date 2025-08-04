@@ -1,12 +1,12 @@
 {
   "id": "e4c3af5b-fa7e-45f0-aa37-ed9d553485f0",
-  "project_id": "c87200c9-50f0-4067-aeca-26c0e2917650",
+  "project_id": "1556373c-6b59-43f2-bdca-af007835e7a8",
   "name": "Тест1",
   "description": "",
   "status": "draft",
   "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-04T15:04:36.564Z",
   "updated_at": "2025-08-04T15:04:36.564Z",
-  "is_deleted": false,
-  "deleted_at": null
+  "is_deleted": true,
+  "deleted_at": "2025-08-04T15:22:13.164Z"
 }
