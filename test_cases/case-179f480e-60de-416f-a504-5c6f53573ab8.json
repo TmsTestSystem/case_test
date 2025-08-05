@@ -1,0 +1,19 @@
+{
+  "id": "179f480e-60de-416f-a504-5c6f53573ab8",
+  "project_id": "32aed38c-b569-4a9f-b39f-864bb7acde03",
+  "test_plan_id": null,
+  "section_id": "ec2e68d9-c263-40d8-870f-805d319934ec",
+  "title": "Успешный DELETE-запрос для пометки проекта как удалённого",
+  "description": "Успешный DELETE-запрос для пометки проекта как удалённого",
+  "preconditions": "Создан процесс: Старт → Подключение к БД → Конец.\nПодключение к БД настроено корректно.\nВ БД существует таблица projects с данными.\nВ таблице projects есть запись с id = 32",
+  "steps": "Открыть настроки параметра Query.\nВ поле \"Запрос SQL\" ввести: UPDATE projects SET deleted_at = NOW() WHERE id = 32\nЗапустить тестирование процесса.  ",
+  "expected_result": "num_rows равен 1.\nПоле deleted_at записи с id = 32 содержит текущую дату и время.\nПроект с id 32 не отображается в списке проектов. ",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-08-05T14:08:59.608Z",
+  "updated_at": "2025-08-05T14:09:04.577Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

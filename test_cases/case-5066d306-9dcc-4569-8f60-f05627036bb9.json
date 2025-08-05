@@ -1,0 +1,19 @@
+{
+  "id": "5066d306-9dcc-4569-8f60-f05627036bb9",
+  "project_id": "32aed38c-b569-4a9f-b39f-864bb7acde03",
+  "test_plan_id": null,
+  "section_id": "ec2e68d9-c263-40d8-870f-805d319934ec",
+  "title": "Успешное выполнение INSERT-запроса",
+  "description": "Успешный INSERT-запрос для добавления нового проекта",
+  "preconditions": "Создан процесс: Старт → Подключение к БД → Конец.\nПодключение к БД настроено корректно.\nВ БД существует таблица projects с данными.",
+  "steps": "Открыть настроки параметра Query.\nВ поле \"Запрос SQL\" ввести: INSERT INTO projects (title, code, description, git, gradient, default_branch) VALUES ('Новый проект', 'NP01', 'Тестовый проект', 'git@example.com/repo.git', '#000000,#ffffff', 'main')\nЗапустить тестирование процесса.\n",
+  "expected_result": "В ответе num_rows равен 1 (одна запись добавлена)\nВ таблице projects появляется новая запись с указанными данными\nСоздан новый проект с параметрами указанными в запросе. ",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-08-05T13:51:53.790Z",
+  "updated_at": "2025-08-05T13:53:52.785Z",
+  "is_deleted": false,
+  "deleted_at": null
+}
