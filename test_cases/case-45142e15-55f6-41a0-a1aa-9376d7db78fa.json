@@ -6,14 +6,14 @@
   "title": "Ошибка при неверном SQL-синтаксисе",
   "description": "Ошибка при неверном SQL-синтаксисе",
   "preconditions": "Создан процесс: Старт → Подключение к БД → Конец.\nПодключение к БД настроено корректно.\nВ БД существует таблица projects с данными.",
-  "steps": "Открыть настроки параметра Query.\nВ поле \"Запрос SQL\" ввести: SELECT * FROM projects WHERE invalid_column = 1.\nЗапустить тестирование процесса.",
+  "steps": "1. Открыть настроки параметра Query.\n2. В поле \"Запрос SQL\" ввести: SELECT * FROM projects WHERE invalid_column = 1.\n3. Запустить тестирование процесса.",
   "expected_result": "Ошибка в компоненте Query: \"column \\\"invalid_column\\\" does not exist\".\ndata и num_rows отсутствуют.",
   "priority": "medium",
   "status": "draft",
   "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "assigned_to": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-05T14:12:22.623Z",
-  "updated_at": "2025-08-05T14:12:22.623Z",
+  "updated_at": "2025-08-06T13:16:08.089Z",
   "is_deleted": false,
   "deleted_at": null
 }

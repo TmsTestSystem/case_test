@@ -6,14 +6,14 @@
   "title": "Успешное выполнение INSERT-запроса",
   "description": "Успешный INSERT-запрос для добавления нового проекта",
   "preconditions": "Создан процесс: Старт → Подключение к БД → Конец.\nПодключение к БД настроено корректно.\nВ БД существует таблица projects с данными.",
-  "steps": "Открыть настроки параметра Query.\nВ поле \"Запрос SQL\" ввести: INSERT INTO projects (title, code, description, git, gradient, default_branch) VALUES ('Новый проект', 'NP01', 'Тестовый проект', 'git@example.com/repo.git', '#000000,#ffffff', 'main')\nЗапустить тестирование процесса.\n",
+  "steps": "1. Открыть настроки параметра Query.\n2. В поле \"Запрос SQL\" ввести: INSERT INTO projects (title, code, description, git, gradient, default_branch) VALUES ('Новый проект', 'NP01', 'Тестовый проект', 'git@example.com/repo.git', '#000000,#ffffff', 'main')\n3. Запустить тестирование процесса.\n",
   "expected_result": "В ответе num_rows равен 1 (одна запись добавлена)\nВ таблице projects появляется новая запись с указанными данными\nСоздан новый проект с параметрами указанными в запросе. ",
   "priority": "medium",
   "status": "draft",
   "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "assigned_to": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-05T13:51:53.790Z",
-  "updated_at": "2025-08-05T13:53:52.785Z",
+  "updated_at": "2025-08-06T13:15:33.553Z",
   "is_deleted": false,
   "deleted_at": null
 }
