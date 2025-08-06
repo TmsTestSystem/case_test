@@ -1,6 +1,6 @@
 {
   "id": "8312d187-dda0-4f89-a03b-9b1544d02d1e",
-  "project_id": "32aed38c-b569-4a9f-b39f-864bb7acde03",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
   "test_plan_id": null,
   "section_id": "ec2e68d9-c263-40d8-870f-805d319934ec",
   "title": " Успешное выполнение DROP TABLE-запроса",
@@ -10,8 +10,8 @@
   "expected_result": "Таблица temp_test_table удалена.\nВ ответе num_rows равен 0 (для DROP).\nerror отсутствует.\nПоследующие запросы к этой таблице вызывают ошибку.",
   "priority": "medium",
   "status": "draft",
-  "created_by": null,
-  "assigned_to": null,
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
+  "assigned_to": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-05T14:39:19.620Z",
   "updated_at": "2025-08-05T14:39:19.620Z",
   "is_deleted": false,

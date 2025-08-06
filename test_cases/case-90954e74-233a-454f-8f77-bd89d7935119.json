@@ -1,6 +1,6 @@
 {
   "id": "90954e74-233a-454f-8f77-bd89d7935119",
-  "project_id": "32aed38c-b569-4a9f-b39f-864bb7acde03",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
   "test_plan_id": null,
   "section_id": "ec2e68d9-c263-40d8-870f-805d319934ec",
   "title": "Проверка таймаута для долгого запроса",
@@ -10,8 +10,8 @@
   "expected_result": "Диаграмма завершена с ошибкой.\nОшибка в компоненте Query: \"canceling statement due to user request\".",
   "priority": "medium",
   "status": "draft",
-  "created_by": null,
-  "assigned_to": null,
+  "created_by": "550e8400-e29b-41d4-a716-446655440000",
+  "assigned_to": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-05T14:19:56.251Z",
   "updated_at": "2025-08-05T14:20:59.611Z",
   "is_deleted": false,
