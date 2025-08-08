@@ -1,0 +1,12 @@
+{
+  "id": "f50f30c9-892b-41e9-b57d-3e5c2685e144",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "parent_id": "45038ee2-9927-40be-b299-3d4d5e00c6d0",
+  "name": "Проверка конкатенации массивов",
+  "order_index": 10,
+  "created_by": null,
+  "created_at": "2025-08-07T14:44:16.834Z",
+  "updated_at": "2025-08-07T14:44:16.834Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

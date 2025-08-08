@@ -1,0 +1,12 @@
+{
+  "id": "abd92744-dbd8-4064-9014-7d9e3092e0bb",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "parent_id": "45038ee2-9927-40be-b299-3d4d5e00c6d0",
+  "name": "Проверка фильтрации массива List.filter()",
+  "order_index": 11,
+  "created_by": null,
+  "created_at": "2025-08-07T15:31:17.714Z",
+  "updated_at": "2025-08-07T15:31:17.714Z",
+  "is_deleted": false,
+  "deleted_at": null
+}
