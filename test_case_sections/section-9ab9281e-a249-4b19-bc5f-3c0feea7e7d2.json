@@ -1,0 +1,12 @@
+{
+  "id": "9ab9281e-a249-4b19-bc5f-3c0feea7e7d2",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "parent_id": "45038ee2-9927-40be-b299-3d4d5e00c6d0",
+  "name": "Проверка String функций",
+  "order_index": 14,
+  "created_by": null,
+  "created_at": "2025-08-08T09:43:34.574Z",
+  "updated_at": "2025-08-08T09:43:34.574Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

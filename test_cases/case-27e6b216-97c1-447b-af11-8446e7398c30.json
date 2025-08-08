@@ -1,0 +1,19 @@
+{
+  "id": "27e6b216-97c1-447b-af11-8446e7398c30",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "9ab9281e-a249-4b19-bc5f-3c0feea7e7d2",
+  "title": "Проверка String.split() с существующим разделителем",
+  "description": "String.split(initial_string, separator_string): List(string)\nСтрока будет конвертироваться в список строк.\n\nЕсли указанного разделителя нет, то возвращается список, содержащий исходную строку.\n\n",
+  "preconditions": "В проекте создан процесс (Старт → Конец.).",
+  "steps": "1. Открыть настройки компонента \"Конец\".\n2. В поле значения данных ввести: {\"test\" : String.split(\"A,B,C\", \",\")}\n3. Запустить тестирование процесса.",
+  "expected_result": "Результат выполнение Output'a:\n{\n  \"test\": [\n    \"A\",\n    \"B\",\n    \"C\"\n  ]\n}",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-08-08T10:10:13.338Z",
+  "updated_at": "2025-08-08T10:10:13.338Z",
+  "is_deleted": false,
+  "deleted_at": null
+}
