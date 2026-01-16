@@ -1,0 +1,19 @@
+{
+  "id": "09f27dbb-266d-4201-8d02-b81e287807a4",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Ошибка создания столбца входных данных",
+  "description": "Создания столбца входных данных с ошибкой\n",
+  "preconditions": "В настройках таблицы создан выходной параметр: income типа int.\n",
+  "steps": "1. Создать столбец в таблице.\n2. В шапке таблицы ввести income",
+  "expected_result": "Переменная income не найдена. Исправьте выражение.",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T10:36:53.071Z",
+  "updated_at": "2025-09-18T10:36:53.071Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

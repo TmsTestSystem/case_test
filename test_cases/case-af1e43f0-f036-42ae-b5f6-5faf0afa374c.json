@@ -1,0 +1,19 @@
+{
+  "id": "af1e43f0-f036-42ae-b5f6-5faf0afa374c",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "e793b543-44d6-419e-8ed1-ffac62b3e507",
+  "title": "Неверная почта при входе через логин и пароль",
+  "description": "Пользователь вводит email, которого нет в системе.",
+  "preconditions": "",
+  "steps": "1. Ввести email: unknown@example.com\n2. Ввести любой пароль.\n3. Нажать «Войти».",
+  "expected_result": "Ошибка: Не удалось войти. Неправильная почта или пароль",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2026-01-14T11:12:14.084Z",
+  "updated_at": "2026-01-14T11:12:14.084Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

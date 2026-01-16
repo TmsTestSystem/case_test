@@ -1,0 +1,19 @@
+{
+  "id": "9384a476-1c92-4291-b602-0542d443c239",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "e793b543-44d6-419e-8ed1-ffac62b3e507",
+  "title": "Успешный вход по логину и паролю",
+  "description": "Пользователь вводит корректный email и пароль. ",
+  "preconditions": "Учетная запись пользователя активна. ",
+  "steps": "1. Открыть страницу входа.\n2. Ввести email: user@balance-pl.ru\n3. Ввести пароль: correct_password\n4. Нажать «Войти».",
+  "expected_result": "Переход на главную страницу с проектами. В правом верхнем углу отображается имя пользователя.",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2026-01-14T10:55:30.636Z",
+  "updated_at": "2026-01-14T10:55:30.636Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "531acd6e-81f0-4318-8d90-eeca297acd64",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "a6d6a1dc-a071-4c2a-b430-2147c750b153",
+  "title": "Cond. Условие otherwise - успешное выполнение.",
+  "description": "Проверка otherwise условия функции Cond.",
+  "preconditions": "В процессе создана схема: Старт → Функция → Конец.\nСтарт процесса и Конец с дефолтным типом - any.\nВ параметрах процесса задана переменная x типа int.\nВ параметрах компонента \"Конец\" указаны данные:\n{\"Output\": $var.x}",
+  "steps": "1. Открыть настройки компонента \"Функция\".\n2. В поле постобработка ввести данные:\ncond (true) { (false) { $var.x = 1 } (false) { $var.x = 2 } otherwise { $var.x = 9 } }\n3. Запустить отладку",
+  "expected_result": "$var.x = 9",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-10-15T09:30:26.179Z",
+  "updated_at": "2026-01-14T14:31:25.486Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

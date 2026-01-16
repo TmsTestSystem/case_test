@@ -1,12 +1,12 @@
 {
   "id": "ec2e68d9-c263-40d8-870f-805d319934ec",
   "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
-  "parent_id": "f0f68436-a2c1-44c7-8abc-9100f972e0af",
+  "parent_id": "fa4fdb69-08ef-4c85-aafc-0f35236adb69",
   "name": "Подключение к БД (Query)",
   "order_index": 0,
   "created_by": "550e8400-e29b-41d4-a716-446655440000",
   "created_at": "2025-08-05T13:12:44.311Z",
-  "updated_at": "2025-08-05T13:12:44.311Z",
+  "updated_at": "2025-08-31T16:56:48.303Z",
   "is_deleted": false,
   "deleted_at": null
 }

@@ -5,7 +5,7 @@
   "section_id": "2e5b695c-4a69-43a6-8fe2-ed083e5b835a",
   "title": "Проверка базовой работы matchValue",
   "description": "Структура выражения: \nmatchValue(expression, value1, result1, value2, result2,..., else_result)\nПример выражения:\nmatchValue(Date($node.Input.data.LastActivityDate).month,\n1, \"January\",\n2, \"February\",\n3, \"March\", \n4, \"April\", \n5, \"May\", \n6, \"June\",\n7, \"July\",\n8, \"August\",\n9, \"September\",\n10, \"October\",\n11, \"November\",\n12, \"December\",\nnull) ",
-  "preconditions": "В проекте создан процесс (Старт → Присваивание → Конец.).\nВ процессе задана переменная test типа string.",
+  "preconditions": "В проекте создан процесс (Старт → Присваивание → Конец.).\nСтарт процесса и Конец с дефолтным типом - any.\nВ процессе задана переменная test типа string.",
   "steps": "1. Открыть настройки компонента \"Присваивание\".\n2. Добавить переменную.\n3. В поле переменной ввести: $var.test\n4. В поле значения ввести: matchValue(2, 1, \"Январь\", 2, \"Февраль\", \"Неизвестно\")\n5. Запустить тестирование процесса.",
   "expected_result": "В результате выполнения присваивания: \"Февраль\"",
   "priority": "medium",
@@ -13,7 +13,7 @@
   "created_by": null,
   "assigned_to": null,
   "created_at": "2025-08-07T14:36:36.710Z",
-  "updated_at": "2025-08-07T14:36:36.710Z",
+  "updated_at": "2026-01-14T14:25:24.245Z",
   "is_deleted": false,
   "deleted_at": null
 }

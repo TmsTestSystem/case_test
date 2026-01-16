@@ -1,0 +1,19 @@
+{
+  "id": "a5106d8c-5150-42b4-9b61-7f0a1adc63f8",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Ошибка генерации запроса в анализе таблицы при удаленной структуре.",
+  "description": "",
+  "preconditions": "В таблице создан входной параметр Struc типа Структура данных (decision {\"status\":string, \"score\": int}.",
+  "steps": "1. В файловой панели проекта удалить структуру decision.\n2. Перейти в панель анализа таблицы.\n3. Нажать кнопку Предзаполнить.",
+  "expected_result": "Ошибка генерации запроса. Структура не найдена.",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T11:58:06.614Z",
+  "updated_at": "2025-09-18T11:58:06.614Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

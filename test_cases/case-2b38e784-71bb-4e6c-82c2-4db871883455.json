@@ -1,0 +1,19 @@
+{
+  "id": "2b38e784-71bb-4e6c-82c2-4db871883455",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Ошибка при создании таблицы с некорректным именем",
+  "description": "Ошибка при создании таблицы с некорректным именем",
+  "preconditions": "Проект открыт.",
+  "steps": "1. Нажать «+ Создать → Таблица решений».\n2. Ввести имя !таблица (символ + кириллица).\n3. Нажать Enter.",
+  "expected_result": "Ошибка: «Допустимы только латинские буквы, цифры, дефис и нижнее подчеркивание».",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T09:48:12.476Z",
+  "updated_at": "2025-09-18T09:48:12.476Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

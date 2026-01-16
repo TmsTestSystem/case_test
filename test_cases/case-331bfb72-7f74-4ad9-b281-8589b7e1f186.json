@@ -5,7 +5,7 @@
   "section_id": "cc1ea50f-1cc1-40f0-9db1-f8c2ebfb6992",
   "title": "Проверка List.sum() с лямбда-выражением",
   "description": "List.sum(list1, lambda_num_arg): float | integer\nВозвращает сумму числовых атрибутов всех элементов массива.\n\n",
-  "preconditions": "В проекте создан процесс (Старт → Конец.).",
+  "preconditions": "В проекте создан процесс (Старт → Конец.).\nСтарт процесса и Конец с дефолтным типом - any.",
   "steps": "1. Открыть настройки компонента \"Конец\".\n2. В поле значения данных ввести: {\"test\" : List.sum([\n  {\"value\":10},\n  {\"value\":20}\n], item -> item.value)}\n3. Запустить тестирование процесса.",
   "expected_result": "Результат выполнение Output'a:\n{\n  \"test\": 30\n}",
   "priority": "medium",
@@ -13,7 +13,7 @@
   "created_by": null,
   "assigned_to": null,
   "created_at": "2025-08-08T09:11:46.588Z",
-  "updated_at": "2025-08-08T09:11:46.588Z",
+  "updated_at": "2026-01-14T14:29:27.507Z",
   "is_deleted": false,
   "deleted_at": null
 }

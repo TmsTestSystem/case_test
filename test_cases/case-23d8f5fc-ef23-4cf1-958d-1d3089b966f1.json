@@ -1,0 +1,19 @@
+{
+  "id": "23d8f5fc-ef23-4cf1-958d-1d3089b966f1",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Удаление структуры данных при созданом выходном параметре с этой структурой.",
+  "description": "",
+  "preconditions": "Создана таблица с выходным параметром decision типа структура данных {\"status\": string, \"score\": integer}, входной параметр income типа int.",
+  "steps": "1. В файловой панели удалить файл структуры decision. \n2. Запустить отладку таблицы (параметры запроса {\"income\":123}. ",
+  "expected_result": "Ошибка при запуске.",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T10:57:37.766Z",
+  "updated_at": "2025-09-18T10:57:37.766Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

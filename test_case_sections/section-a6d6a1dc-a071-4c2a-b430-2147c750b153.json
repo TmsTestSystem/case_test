@@ -1,0 +1,12 @@
+{
+  "id": "a6d6a1dc-a071-4c2a-b430-2147c750b153",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "parent_id": "45038ee2-9927-40be-b299-3d4d5e00c6d0",
+  "name": "Проверка COND - аналог CASE-WHEN",
+  "order_index": 26,
+  "created_by": null,
+  "created_at": "2025-10-15T08:56:36.476Z",
+  "updated_at": "2025-10-15T08:56:36.476Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

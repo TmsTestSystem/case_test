@@ -1,0 +1,19 @@
+{
+  "id": "a3a3780c-5b90-404d-9ba4-cf1790d3499f",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Ошибка при невалидном выражении в условии",
+  "description": "Ошибка при невалидном выражении в условии",
+  "preconditions": "Создан столбец условия.",
+  "steps": "1. В ячейку условия ввести: \"abc\".",
+  "expected_result": "Ошибка валидации: «Условие должно возвращать boolean».",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T10:21:13.323Z",
+  "updated_at": "2025-09-18T10:21:13.323Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

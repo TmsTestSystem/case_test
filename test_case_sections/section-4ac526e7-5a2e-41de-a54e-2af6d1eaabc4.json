@@ -1,0 +1,12 @@
+{
+  "id": "4ac526e7-5a2e-41de-a54e-2af6d1eaabc4",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "parent_id": null,
+  "name": "Почтовые уведомления",
+  "order_index": 15,
+  "created_by": null,
+  "created_at": "2025-08-31T16:55:57.537Z",
+  "updated_at": "2025-08-31T16:55:57.537Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

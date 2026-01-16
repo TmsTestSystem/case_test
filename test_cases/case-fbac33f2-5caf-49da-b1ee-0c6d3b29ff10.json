@@ -1,0 +1,19 @@
+{
+  "id": "fbac33f2-5caf-49da-b1ee-0c6d3b29ff10",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "f1469705-a806-4664-9db5-9dd1f6d61953",
+  "title": "Вызов релиза из очереди RMQ ",
+  "description": "Вызов релиза посредством очереди RMQ.",
+  "preconditions": "В проекте создан валидный релиз. Релиз опубликован.",
+  "steps": "1. Открыть интерфейс брокера сообщений RMQ.\n2. Открыть вкладку Queues (Очереди).\n3. Открыть очередь релиза (имя очереди релиза состоит из элиаса релиза и элиаса эндпоинта)\n4. В поле Payload ввести запрос:\n{\n  \"request_meta\": {\n    \"object_id\": \"string\",\n    \"request_id\": \"string\",\n    \"tags\": \"string\"\n  },\n  \"request_data\": \"string\"\n}\n\n5. Отправить сообщение (Publish message).\n",
+  "expected_result": "Релиз был успешно вызван. Операция отобразилась в журнале процессов с соответствующим статусом выполнения. ",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2026-01-15T16:01:52.391Z",
+  "updated_at": "2026-01-15T16:01:52.391Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

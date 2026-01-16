@@ -1,0 +1,19 @@
+{
+  "id": "a4f8d009-6f53-4ca4-a795-0fdb953fa638",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "8bb57377-0a80-4f70-bc2e-db2e218238ea",
+  "title": "Мультихит: обрабатываются все подходящие строки",
+  "description": "",
+  "preconditions": "В таблице создан входной параметр income типа int. Выходной параметр типа структура данных decision {\"status\":string, \"score\": int}. Задан input на параметр income. \nВключен параметр мультихит.",
+  "steps": "1. Задать условие в первой строке:\nInput: $this > 50000, Output: { \"status\": \"APPROVE\", \"score\": 85 }\n2. Задать условие во второй строке:\nInput: $this > 30000, Output: { \"status\": \"APPROVE\", \"score\": 65 }\n3. В анализе таблицы задать запрос {\"income\": 60000}\n4. Запустить тестирование таблицы.",
+  "expected_result": "Обе строки успешно отработали. \n[\n  {\n    \"decision\": {\n      \"score\": 85,\n      \"status\": \"APPROVE\"\n    }\n  },\n  {\n    \"decision\": {\n      \"score\": 65,\n      \"status\": \"APPROVE\"\n    }\n  }\n]",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2025-09-18T12:10:05.878Z",
+  "updated_at": "2025-09-18T12:11:35.889Z",
+  "is_deleted": false,
+  "deleted_at": null
+}
