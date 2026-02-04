@@ -1,0 +1,19 @@
+{
+  "id": "66a5480c-9c29-43c8-81ea-e3e833bf981d",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "50479b0e-b891-43ff-87d4-baf83c9f3c88",
+  "title": "Вызов процесса вне релиза",
+  "description": "Порядок действий для вызова прцесса вне релиза через Postman. \nТест-кейс описан на основе локального запуска СПР через Docker.",
+  "preconditions": "В проекте создан валидный процесс process.\nКод проекта - PR.\nИмя ветки - main. ",
+  "steps": "1. Открыть Postman.\n2. Выбрать метод - POST.\n3. Ввести url - http://localhost:3333/api/ide/PR/branch/main/bps/call?path=project.df.json\n4. В вкладе Headers ввести - Key: Content-Type, Value: application/json.\n5. В вкладке Body ввести - {\n  \"request_data\": { \"input\": \"value\" }\n}\n6. Нажать \"Send\"",
+  "expected_result": "Код ответа - 200.\nТело: результат выполнения",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2026-01-19T14:57:57.134Z",
+  "updated_at": "2026-01-19T14:57:57.134Z",
+  "is_deleted": false,
+  "deleted_at": null
+}

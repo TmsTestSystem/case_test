@@ -1,0 +1,19 @@
+{
+  "id": "04be9bb9-8e10-4690-abab-b14eae688cc1",
+  "project_id": "d9879276-d4be-498c-9577-fdd8beabb586",
+  "test_plan_id": null,
+  "section_id": "50479b0e-b891-43ff-87d4-baf83c9f3c88",
+  "title": "Получение результата по JOB_UUID с токеном в query-параметре",
+  "description": "Порядок действий для получения статуса выполнения процесса по JOB_UUID через Postman.\nТест-кейс описан на основе локального запуска СПР через Docker.",
+  "preconditions": "В docker compose файле задана переменная бэкенда: HTTP_RELEASE_ENDPOINT_ACCESS_TOKEN: \"12345\"\nВ проекте создан валидный релиз.\nРелиз был успешно вызван.\nВ журнале прцессов отображен вызов с уникальным job_uuid (пример для тест-кейса: ccd0e2d6-301f-459a-b98e-fdf608e4a723)",
+  "steps": "1. Открыть Postman.\n2. Выбрать метод - GET.\n3. Ввести url - http://localhost:3333/api/get_job_result/ccd0e2d6-301f-459a-b98e-fdf608e4a723?access_token=12345\n4. Нажать \"Send\"",
+  "expected_result": "Статус: 200 OK\nТело:\n{\n    \"node\": \"decision_flow@127.0.0.1\",\n    \"status\": \"finished\",\n    \"path\": \"180sec.df.json\",\n    \"tags\": null,\n    \"started_at\": \"2026-01-19T14:01:49.062454\",\n    \"result\": {\n        \"data\": \"finish\"\n    },\n    \"transport\": \"HTTP\",\n    \"request_id\": null,\n    \"job_uuid\": \"ccd0e2d6-301f-459a-b98e-fdf608e4a723\",\n    \"project_code\": \"TP\",\n    \"release_id\": 86,\n    \"version_commit\": \"de19e216\",\n    \"object_id\": null,\n    \"finished_at\": \"2026-01-19T14:04:49.092368\",\n    \"job_duration\": 180030\n}\n",
+  "priority": "medium",
+  "status": "draft",
+  "created_by": null,
+  "assigned_to": null,
+  "created_at": "2026-01-19T15:26:58.787Z",
+  "updated_at": "2026-01-19T15:26:58.787Z",
+  "is_deleted": false,
+  "deleted_at": null
+}
